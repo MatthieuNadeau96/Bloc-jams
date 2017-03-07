@@ -5,11 +5,11 @@ var albumPicasso = {
     year: '1881',
     albumArtUrl: 'assets/images/album_covers/01.png',
     songs: [
-        {name: 'Blue', length: '4:26', audioUrl: 'assets/music/bloc_jams_music/blue'},
-        {name: 'Green', length: '3:14', audioUrl: 'assets/music/bloc_jams_music/green'},
-        {name: 'Red', length: '5:01', audioUrl: 'assets/music/bloc_jams_music/red'},
-        {name: 'Pink', length: '3:21', audioUrl: 'assets/music/bloc_jams_music/pink'},
-        {name: 'Magenta', length: '2:15', audioUrl: 'assets/music/bloc_jams_music/magenta'}
+        {title: 'Blue', duration: '161.71', audioUrl: 'assets/music/bloc_jams_music/blue'},
+        {title: 'Green', duration: '103.96', audioUrl: 'assets/music/bloc_jams_music/green'},
+        {title: 'Red', duration: '268.45', audioUrl: 'assets/music/bloc_jams_music/red'},
+        {title: 'Pink', duration: '153.14', audioUrl: 'assets/music/bloc_jams_music/pink'},
+        {title: 'Magenta', duration: '374.22', audioUrl: 'assets/music/bloc_jams_music/magenta'}
     ]
 };
 
@@ -20,11 +20,11 @@ var albumMarconi = {
     year: '1909',
     albumArtUrl: 'assets/images/album_covers/20.png',
     songs: [
-        {name: 'Hello, Operator?', length: '1:01'},
-        {name: 'Ring, ring, ring', length: '5:01'},
-        {name: 'Fits in your pocket', length: '3:21'},
-        {name: 'Can you hear me now?', length: '3:14'},
-        {name: 'Wrong phone number', length: '2:15'}
+        {title: 'Hello, Operator?', length: '1:01'},
+        {title: 'Ring, ring, ring', length: '5:01'},
+        {title: 'Fits in your pocket', length: '3:21'},
+        {title: 'Can you hear me now?', length: '3:14'},
+        {title: 'Wrong phone number', length: '2:15'}
     ]
 };
 
@@ -35,10 +35,10 @@ var albumFruits = {
     year: '1969',
     albumArtUrl: 'assets/images/album_covers/02.png',
     songs: [
-        {name: 'Oranges?', length: '4:04'},
-        {name: 'Apples?', length: '6:01'},
-        {name: 'Bananas?', length: '8:11'},
-        {name: 'Plums?', length: '7:00'},
-        {name: 'Pears?', length: '6:09'}
+        {title: 'Oranges?', length: '4:04'},
+        {title: 'Apples?', length: '6:01'},
+        {title: 'Bananas?', length: '8:11'},
+        {title: 'Plums?', length: '7:00'},
+        {title: 'Pears?', length: '6:09'}
     ]
 };
